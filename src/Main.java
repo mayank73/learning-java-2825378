@@ -6,24 +6,15 @@ public class Main {
         double studentGPA = 3.45;
 
         boolean hasPerfectAttendance = true;
-        String studentFirstName = "Maddy";
+        String studentFirstName = "Maaddy";
         String studentLastName = "Upton";
         char studentFirstInitial = studentFirstName.charAt(0);
         char studentLastInitial = studentLastName.charAt(0);
-        
-=======
-        String studentFirstName = "Kayla";
-        String studentLastName = "Hammon";
         String space = " ";
         System.out.println(studentFirstName + " " +
                 studentLastName + " has a GPA of " + studentGPA);
         System.out.println("What do you want to update it to?");
 
-        Scanner input = new Scanner(System.in);
-        studentGPA = input.nextDouble();
-        System.out.println(studentFirstName + space + studentLastName + space + "has the updated GPA: "+studentGPA);
-
-<<<<<<< HEAD
         System.out.println(studentFirstName);
         System.out.println(studentLastName);
         System.out.println(studentFirstInitial);
