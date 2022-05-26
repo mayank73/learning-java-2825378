@@ -25,5 +25,7 @@ public class Main {
         System.out.println(studentLastInitial);
         System.out.println(hasPerfectAttendance);
         System.out.println("Student name is: "+ studentFirstName + " " + studentLastName);
+        input.close();
+
     }
 }
