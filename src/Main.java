@@ -7,6 +7,7 @@ public class Main {
         char studentLastInitial = 'H';
         boolean hasPerfectAttendance = true;
 
+        System.out.println("");
         System.out.println(studentAge);
         System.out.println(studentGPA);
         System.out.println(studentFirstInitial);
